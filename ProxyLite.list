@@ -1,5 +1,8 @@
 # 代理列表
-
+DOMAIN,app.koofr.net
+DOMAIN,api.koofr.net
+DOMAIN-SUFFIX,koofr.net
+DOMAIN-SUFFIX,koofr.eu
 # MyList && Other
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
