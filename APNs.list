@@ -1,5 +1,5 @@
-#!name=Apple APNs Proxy
-#!desc=Apple Push Notification Service Proxy
+#!name=Apple APNs 代理
+#!desc=Apple 推送通知服务代理
 [Rule]
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,push-apple.com.akadns.net
