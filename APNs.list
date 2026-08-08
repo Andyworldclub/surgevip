@@ -1,15 +1,15 @@
 #!name=Apple APNs 代理
 #!desc=Apple 推送通知服务代理
 [Rule]
-DOMAIN-SUFFIX,push.apple.com
-DOMAIN-SUFFIX,push-apple.com.akdns.net
-DOMAIN-SUFFIX,api.push.apple.com
-IP-CIDR,17.249.0.0/16
-IP-CIDR,17.252.0.0/16
-IP-CIDR,17.57.144.0/22
-IP-CIDR,17.188.128.0/18
-IP-CIDR,17.188.20.0/23
-IP-CIDR6,2620:149:a44::/48
-IP-CIDR6,2403:300:a42::/48
-IP-CIDR6,2403:300:a51::/48
-IP-CIDR6,2a01:b740:a42::/48
+DOMAIN-SUFFIX,push.apple.com,Proxy
+DOMAIN-SUFFIX,push-apple.com.akadns.net,Proxy
+DOMAIN-SUFFIX,api.push.apple.com,Proxy
+IP-CIDR,17.249.0.0/16,Proxy
+IP-CIDR,17.252.0.0/16,Proxy
+IP-CIDR,17.57.144.0/22,Proxy
+IP-CIDR,17.188.128.0/18,Proxy
+IP-CIDR,17.188.20.0/23,Proxy
+IP-CIDR6,2620:149:a44::/48,Proxy
+IP-CIDR6,2403:300:a42::/48,Proxy
+IP-CIDR6,2403:300:a51::/48,Proxy
+IP-CIDR6,2a01:b740:a42::/48,Proxy
