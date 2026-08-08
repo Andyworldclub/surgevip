@@ -1,14 +1,20 @@
 #!name=Apple APNs 代理
 #!desc=Apple 推送通知服务代理
+
 [Rule]
+# 域名规则（必须放最前）
 DOMAIN-SUFFIX,push.apple.com,Proxy
 DOMAIN-SUFFIX,push-apple.com.akadns.net,Proxy
 DOMAIN-SUFFIX,api.push.apple.com,Proxy
+
+# IPv4 规则（放在域名规则后）
 IP-CIDR,17.249.0.0/16,Proxy
 IP-CIDR,17.252.0.0/16,Proxy
 IP-CIDR,17.57.144.0/22,Proxy
 IP-CIDR,17.188.128.0/18,Proxy
 IP-CIDR,17.188.20.0/23,Proxy
+
+# IPv6 规则（放在最后，Surge 推荐）
 IP-CIDR6,2620:149:a44::/48,Proxy
 IP-CIDR6,2403:300:a42::/48,Proxy
 IP-CIDR6,2403:300:a51::/48,Proxy
